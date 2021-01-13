@@ -78,9 +78,9 @@ textarea.input {
   display: none;
 }
 
-.btn a {
-  display: inline-block;
+.content__btn a {
   color: #000000;
+  background-color: #fff;
   font-family: "Bebas Neue";
   font-size: 17px;
   font-weight: 400;
@@ -90,8 +90,7 @@ textarea.input {
 }
 
 @media (max-width: 1173px) {
-  .btn a {
-    font-size: 17px;
+  .content__btn a {
     padding: 12px 24px;
   }
 }
@@ -470,10 +469,6 @@ header {
     line-height: 35px;
   }
 }
-.content__btn {
-  display: inline-block;
-  z-index: 5;
-}
 
 .content__text {
   color: #ffffff;
@@ -495,7 +490,9 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .menus__body {
