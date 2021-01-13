@@ -78,6 +78,23 @@ textarea.input {
   display: none;
 }
 
+.btn a {
+  color: #000000;
+  background-color: #fff;
+  font-family: "Bebas Neue";
+  font-size: 17px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  padding: 17px 33px;
+}
+
+@media (max-width: 1173px) {
+  .btn a {
+    padding: 12px 24px;
+  }
+}
+
 .content__btn a {
   color: #000000;
   background-color: #fff;
