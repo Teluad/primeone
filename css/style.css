@@ -470,6 +470,10 @@ header {
     line-height: 35px;
   }
 }
+.content__btn {
+  display: inline-block;
+  z-index: 5;
+}
 
 .content__text {
   color: #ffffff;
@@ -491,6 +495,7 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  align-items: center;
 }
 
 .menus__body {
