@@ -79,6 +79,7 @@ textarea.input {
 }
 
 .btn a {
+  display: inline-block;
   color: #000000;
   background-color: #fff;
   font-family: "Bebas Neue";
