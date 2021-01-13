@@ -569,13 +569,10 @@ header {
           flex: 1 1 100%;
 }
 
-.menus__column-btn {
-  display: inline-block;
-  background-color: black;
-}
-
 .menus__column-btn a {
   color: white;
+  display: inline-block;
+  background-color: black;
 }
 
 .menus__column-link {
